@@ -1,0 +1,7 @@
+platform :ios, ‘10.0’
+use_frameworks!
+target ‘小秘聊天’ do
+pod 'Alamofire'
+pod ’SwiftyJSON’
+end
+

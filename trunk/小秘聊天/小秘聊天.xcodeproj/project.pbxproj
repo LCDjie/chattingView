@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A88CA060A93F8F4212BC2E4 /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE554C970608357F52A38B /* Pods_____.framework */; };
+		E00ABA3C1E77BF730021DF6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00ABA3B1E77BF730021DF6D /* AppDelegate.swift */; };
+		E00ABA3E1E77BF730021DF6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00ABA3D1E77BF730021DF6D /* ViewController.swift */; };
+		E00ABA411E77BF730021DF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00ABA3F1E77BF730021DF6D /* Main.storyboard */; };
+		E00ABA431E77BF730021DF6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00ABA421E77BF730021DF6D /* Assets.xcassets */; };
+		E00ABA461E77BF730021DF6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00ABA441E77BF730021DF6D /* LaunchScreen.storyboard */; };
+		E029DBAE1E77CCAD00480280 /* CustomerServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029DBAD1E77CCAD00480280 /* CustomerServiceTableViewCell.swift */; };
+		E029DBB01E77CCC200480280 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029DBAF1E77CCC200480280 /* UserTableViewCell.swift */; };
+		E029DBB21E77CCF600480280 /* SpecialServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029DBB11E77CCF600480280 /* SpecialServiceTableViewCell.swift */; };
+		E029DBB51E77E79900480280 /* CommomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029DBB41E77E79900480280 /* CommomMethods.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4154229B490BE124113B2A3C /* Pods-小秘聊天.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小秘聊天.release.xcconfig"; path = "Pods/Target Support Files/Pods-小秘聊天/Pods-小秘聊天.release.xcconfig"; sourceTree = "<group>"; };
+		72AE554C970608357F52A38B /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00ABA381E77BF730021DF6D /* 小秘聊天.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小秘聊天.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00ABA3B1E77BF730021DF6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E00ABA3D1E77BF730021DF6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E00ABA401E77BF730021DF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00ABA421E77BF730021DF6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00ABA451E77BF730021DF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E00ABA471E77BF730021DF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E029DBAD1E77CCAD00480280 /* CustomerServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerServiceTableViewCell.swift; path = cell/CustomerServiceTableViewCell.swift; sourceTree = "<group>"; };
+		E029DBAF1E77CCC200480280 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTableViewCell.swift; path = cell/UserTableViewCell.swift; sourceTree = "<group>"; };
+		E029DBB11E77CCF600480280 /* SpecialServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecialServiceTableViewCell.swift; path = cell/SpecialServiceTableViewCell.swift; sourceTree = "<group>"; };
+		E029DBB41E77E79900480280 /* CommomMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommomMethods.swift; path = CommonMethods/CommomMethods.swift; sourceTree = "<group>"; };
+		EEB2188005DA0B0862011E78 /* Pods-小秘聊天.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小秘聊天.debug.xcconfig"; path = "Pods/Target Support Files/Pods-小秘聊天/Pods-小秘聊天.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00ABA351E77BF730021DF6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A88CA060A93F8F4212BC2E4 /* Pods_____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08898CEE1EB3FB86A6DC484C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEB2188005DA0B0862011E78 /* Pods-小秘聊天.debug.xcconfig */,
+				4154229B490BE124113B2A3C /* Pods-小秘聊天.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1462A05920B6595A06D357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72AE554C970608357F52A38B /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00ABA2F1E77BF730021DF6D = {
+			isa = PBXGroup;
+			children = (
+				E00ABA3A1E77BF730021DF6D /* 小秘聊天 */,
+				E00ABA391E77BF730021DF6D /* Products */,
+				08898CEE1EB3FB86A6DC484C /* Pods */,
+				CF1462A05920B6595A06D357 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E00ABA391E77BF730021DF6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00ABA381E77BF730021DF6D /* 小秘聊天.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00ABA3A1E77BF730021DF6D /* 小秘聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				E029DBB31E77E71C00480280 /* CommonMethods */,
+				E029DBAC1E77CC5900480280 /* cell */,
+				E00ABA3B1E77BF730021DF6D /* AppDelegate.swift */,
+				E00ABA3D1E77BF730021DF6D /* ViewController.swift */,
+				E00ABA3F1E77BF730021DF6D /* Main.storyboard */,
+				E00ABA421E77BF730021DF6D /* Assets.xcassets */,
+				E00ABA441E77BF730021DF6D /* LaunchScreen.storyboard */,
+				E00ABA471E77BF730021DF6D /* Info.plist */,
+			);
+			path = "小秘聊天";
+			sourceTree = "<group>";
+		};
+		E029DBAC1E77CC5900480280 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E029DBAD1E77CCAD00480280 /* CustomerServiceTableViewCell.swift */,
+				E029DBAF1E77CCC200480280 /* UserTableViewCell.swift */,
+				E029DBB11E77CCF600480280 /* SpecialServiceTableViewCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		E029DBB31E77E71C00480280 /* CommonMethods */ = {
+			isa = PBXGroup;
+			children = (
+				E029DBB41E77E79900480280 /* CommomMethods.swift */,
+			);
+			name = CommonMethods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00ABA371E77BF730021DF6D /* 小秘聊天 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00ABA4A1E77BF730021DF6D /* Build configuration list for PBXNativeTarget "小秘聊天" */;
+			buildPhases = (
+				DA0AAE7325C69354D928100E /* [CP] Check Pods Manifest.lock */,
+				E00ABA341E77BF730021DF6D /* Sources */,
+				E00ABA351E77BF730021DF6D /* Frameworks */,
+				E00ABA361E77BF730021DF6D /* Resources */,
+				8EC70B6130551A99F7FF6FAF /* [CP] Embed Pods Frameworks */,
+				9F55A8F82FD0DC209D83EE82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小秘聊天";
+			productName = "小秘聊天";
+			productReference = E00ABA381E77BF730021DF6D /* 小秘聊天.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00ABA301E77BF730021DF6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WeijieLi;
+				TargetAttributes = {
+					E00ABA371E77BF730021DF6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7C4Z7AV2H7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E00ABA331E77BF730021DF6D /* Build configuration list for PBXProject "小秘聊天" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00ABA2F1E77BF730021DF6D;
+			productRefGroup = E00ABA391E77BF730021DF6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00ABA371E77BF730021DF6D /* 小秘聊天 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00ABA361E77BF730021DF6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00ABA461E77BF730021DF6D /* LaunchScreen.storyboard in Resources */,
+				E00ABA431E77BF730021DF6D /* Assets.xcassets in Resources */,
+				E00ABA411E77BF730021DF6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EC70B6130551A99F7FF6FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-小秘聊天/Pods-小秘聊天-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F55A8F82FD0DC209D83EE82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-小秘聊天/Pods-小秘聊天-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0AAE7325C69354D928100E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00ABA341E77BF730021DF6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E029DBB01E77CCC200480280 /* UserTableViewCell.swift in Sources */,
+				E00ABA3E1E77BF730021DF6D /* ViewController.swift in Sources */,
+				E029DBB21E77CCF600480280 /* SpecialServiceTableViewCell.swift in Sources */,
+				E00ABA3C1E77BF730021DF6D /* AppDelegate.swift in Sources */,
+				E029DBB51E77E79900480280 /* CommomMethods.swift in Sources */,
+				E029DBAE1E77CCAD00480280 /* CustomerServiceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E00ABA3F1E77BF730021DF6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00ABA401E77BF730021DF6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E00ABA441E77BF730021DF6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00ABA451E77BF730021DF6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00ABA481E77BF730021DF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00ABA491E77BF730021DF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00ABA4B1E77BF730021DF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB2188005DA0B0862011E78 /* Pods-小秘聊天.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C4Z7AV2H7;
+				INFOPLIST_FILE = "小秘聊天/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weijiLI.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E00ABA4C1E77BF730021DF6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4154229B490BE124113B2A3C /* Pods-小秘聊天.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7C4Z7AV2H7;
+				INFOPLIST_FILE = "小秘聊天/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weijiLI.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00ABA331E77BF730021DF6D /* Build configuration list for PBXProject "小秘聊天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00ABA481E77BF730021DF6D /* Debug */,
+				E00ABA491E77BF730021DF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00ABA4A1E77BF730021DF6D /* Build configuration list for PBXNativeTarget "小秘聊天" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00ABA4B1E77BF730021DF6D /* Debug */,
+				E00ABA4C1E77BF730021DF6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00ABA301E77BF730021DF6D /* Project object */;
+}
